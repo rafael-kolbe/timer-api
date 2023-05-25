@@ -1,18 +1,27 @@
 {
-  "name": "cronometro",
+  "name": "timer-api",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "A basic timer api",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-kolbe/timer-api.git"
+  },
+  "author": "Rafael Kolbe Mendes",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafael-kolbe/timer-api/issues"
+  },
+  "homepage": "https://github.com/rafael-kolbe/timer-api#readme",
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.22"
   }
 }
